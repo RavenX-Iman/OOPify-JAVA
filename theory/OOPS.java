@@ -2,19 +2,12 @@ package theory;
 //class is a blueprint of an object
 //object is an instance of a class.
 class Pen{
+    //properties/attributes
     String color;
     String type;
     int price;
-    // pen(){ //default constructor
-    //     color=null;
-    //     type= null;
-    //     price=0;
-    // }
-    // pen(String color,String type,int price){ //parameterized constructor
-    //     this.color=color;
-    //     this.type=type;
-    //     this.price=price;
-    // }
+
+    //methods
     public void write(){
         System.out.println("Writing something");
     }
