@@ -8,15 +8,23 @@ class Time {
 
     // Setter Method to set time
     public void setTime(int h, int m, int s) {
-        if (h >= 0 && h < 24) this.hours = h;
-        else System.out.println("Invalid Hours!");
-
-        if (m >= 0 && m < 60) this.minutes = m;
-        else System.out.println("Invalid Minutes!");
-
-        if (s >= 0 && s < 60) this.seconds = s;
-        else System.out.println("Invalid Seconds!");
+    if (h >= 0 && h < 24) {
+        this.hours = h;
+    }else{ 
+        System.out.println("Invalid Hours!");
     }
+
+    if (m >= 0 && m < 60){
+         this.minutes = m;
+    }else{
+        System.out.println("Invalid Minutes!");
+    }
+
+    if (s >= 0 && s < 60) {
+        this.seconds = s;
+    }else{ System.out.println("Invalid Seconds!");
+    }
+}
 
     // Getter Methods
     public int getHours() {
@@ -43,6 +51,7 @@ class Time {
         System.out.printf("Time (12-Hour Format): %02d:%02d:%02d %s\n", displayHour, minutes, seconds, period);
     }
 
+    //methods of time-class: incrementTime, decrementTime, isMidnight, isNoon, compareTime
     // Increment Time by 1 second
     public void incrementTime() {
         seconds++;
