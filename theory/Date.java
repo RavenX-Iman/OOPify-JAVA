@@ -21,7 +21,7 @@ public class Date {
     }
     //method to display date
     public void displayDate(){
-        System.out.println("Date is:"+ day+" "+month+""+year);
+        System.out.println("Date is:"+ day+" "+month+" "+year);
     }
 
     public static void main(String[] args) {
