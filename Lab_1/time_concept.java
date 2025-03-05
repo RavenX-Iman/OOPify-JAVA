@@ -1,5 +1,4 @@
-package Lab1;
-
+package Lab_1;
 class Time {
     // Data Members
     private int hours;

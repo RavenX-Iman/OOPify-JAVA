@@ -1,4 +1,4 @@
-package Lab1;
+package Lab_1;
 import java.util.Scanner; 
 class CarPart { 
     //properties of the CarPart-class

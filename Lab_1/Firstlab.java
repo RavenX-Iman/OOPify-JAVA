@@ -1,4 +1,4 @@
-package Lab1;
+package Lab_1;
 public class Firstlab{
     public static int sum(int x, int y) {
         return x + y;

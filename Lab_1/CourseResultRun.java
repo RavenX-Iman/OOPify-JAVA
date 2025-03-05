@@ -1,4 +1,4 @@
-package Lab1;
+package Lab_1;
 class CourseResult { 
     public String studentname; 
     public String coursename; 

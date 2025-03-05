@@ -1,4 +1,4 @@
-package Lab1;
+package Lab_1;
 class Student {
     // Data Members
     private String s_name;

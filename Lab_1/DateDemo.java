@@ -1,4 +1,4 @@
-package Lab1;
+package Lab_1;
 class Date { 
     //properties of the date-class
     public String month; 
