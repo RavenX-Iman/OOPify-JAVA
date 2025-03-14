@@ -1,10 +1,10 @@
 package Lab5;
 class Person {
     //parent class
-    private String name;
-    private String address;
-    private String ph_No;
-    private int id;
+    protected String name;
+    protected String address;
+    protected String ph_No;
+    protected int id;
 
     Person(){
         name=null;
@@ -84,7 +84,7 @@ class Student extends Person{
         System.out.println("Roll-No: "+roll_no);
     }
 }
-public class Run{
+public class RunnerA1{
     public static void main(String[] args) {
         // Person p1 = new Person();
         //we will not make object of parent class and not call it because we can call them from child class

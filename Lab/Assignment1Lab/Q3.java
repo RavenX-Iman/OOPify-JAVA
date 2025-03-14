@@ -17,6 +17,7 @@ class Travel {
         this.kilometers = sc.nextInt();
         System.out.print("Enter hours traveled: ");
         this.hours = sc.nextInt();
+        sc.close();
         
     }
 
@@ -54,4 +55,5 @@ class Travel {
         System.out.println("\nTotal Travel Details (After Addition):");
         t3.show();
     }
+
 }
