@@ -2,8 +2,8 @@ package theory;
     class Circle{
         double radius;
         //we can also add these attributes but not necessary in this case 
-        // private double area;
-        // private double circf;
+        // double area;
+        // double circf;
 
     
         //Constructors
