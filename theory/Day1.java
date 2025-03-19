@@ -1,6 +1,6 @@
 package theory;
     class Circle{
-        private double radius;
+        double radius;
         //we can also add these attributes but not necessary in this case 
         // private double area;
         // private double circf;
