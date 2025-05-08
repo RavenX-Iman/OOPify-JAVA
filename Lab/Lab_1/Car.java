@@ -8,7 +8,7 @@ public class Car {
     private int speed;
     private boolean isEngineOn;
 
-    // Constructor
+    // parameterized Constructor
     public Car(String brand, String model, int year, double fuelLevel) {
         this.brand = brand;
         this.model = model;

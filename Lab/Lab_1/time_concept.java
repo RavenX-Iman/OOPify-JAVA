@@ -88,6 +88,7 @@ class Time {
     }
 
     // Compare Two Time Objects
+    //Time t2 is the newtime object to compare with current time object
     public String compareTime(Time t2) {
         if (this.hours == t2.hours && this.minutes == t2.minutes && this.seconds == t2.seconds) {
             return "Times are equal.";

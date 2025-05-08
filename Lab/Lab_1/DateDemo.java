@@ -14,13 +14,18 @@ class Date {
 public class DateDemo { 
  
     public static void main(String[] args) { 
-        Date date1, date2; //declaration of 2 objects of date-class
-        date1 = new Date(); //instantaniation of date1 object
+        //Date date1 = new Date();
+        //Date date2 = new Date();
+        Date date1, date2; //declaration of 2 objects at same time of date-class
+        //instantaniation of date1 object
+        date1 = new Date(); 
         date1.month = "December"; 
         date1.day = 31; 
         date1.year = 2012; 
         System.out.println("date1:"); 
         date1.displayDate(); 
+
+        //instantaniation of date2 object
         date2 = new Date(); 
         date2.month = "July"; 
         date2.day = 4; 
