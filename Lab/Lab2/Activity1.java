@@ -1,5 +1,5 @@
 package Lab2;
-class Rectangle { 
+class Rectangle1 { 
     //instance variable
     public int length;
     public int width; 
