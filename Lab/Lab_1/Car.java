@@ -18,7 +18,7 @@ public class Car {
         this.isEngineOn = false;
     }
 
-    // Method to start the engine
+    // Function/Method to start the engine
     public void startEngine() {
         if (!isEngineOn) {
             isEngineOn = true;
