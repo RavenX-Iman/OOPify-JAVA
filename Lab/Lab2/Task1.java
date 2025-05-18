@@ -14,6 +14,8 @@ class Circle{
 }
 public class Task1 {
     public static void main(String[] args) {
+        Circle c = new Circle();
+        c.circumference();
         Circle c1 = new Circle(5);
         c1.circumference();
     }
